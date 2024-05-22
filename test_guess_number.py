@@ -1,7 +1,5 @@
 import unittest
-
 from guess_number import generate_number, check_guess
-
 
 class TestGuessNumber(unittest.TestCase):
 
@@ -20,7 +18,6 @@ class TestGuessNumber(unittest.TestCase):
     def test_check_guess_equal(self):
         result = check_guess(100, 100)
         self.assertEqual(result, "equal")
-
 
 if __name__ == "__main__":
     unittest.main()
